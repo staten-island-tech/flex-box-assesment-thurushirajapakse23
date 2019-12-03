@@ -1,17 +1,17 @@
-/* @import "./_header.scss";
-@import "./_about.scss";
-$colors:(
-    primary: #345123
-);
-@function color($color-name){
-    @return map-get($colors, $color-name);
+.header {
+  background-color: pink;
 }
-$padding: 1.3rem;
-body{
-    background-color: rgba(color(primary), 0.4);
-} */
+
+.header {
+  background-color: blueviolet;
+}
+
+body {
+  background-color: rgba(52, 81, 35, 0.4);
+}
+
 .flex-parent {
-  background-color: rgb(253, 173, 108);
+  background-color: pink;
   height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,7 +26,7 @@ body{
 }
 
 .flex-child {
-  background-color: rgb(66, 64, 211);
+  background-color: plum;
   margin: 10px;
   height: 20vh;
   color: white;
@@ -48,6 +48,6 @@ body{
 }
 
 .flex-sm {
-  background-color: rgb(250, 238, 74);
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */

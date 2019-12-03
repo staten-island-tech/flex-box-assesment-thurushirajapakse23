@@ -1,24 +1,23 @@
  @import "./_header.scss";
 @import "./_about.scss";
-$colors:(
-    primary: #345123
+$colors:( primary: #345123
 );
 @function color($color-name){
     @return map-get($colors, $color-name);
 }
-$padding: 1.3rem;
+$padding: 1.3rem; 
 body{
     background-color: rgba(color(primary), 0.4);
-
+}
 .flex-parent{
-    background-color:deepskyblue;
+    background-color: pink;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .flex-child{
-    background-color: pink;
+    background-color: plum;
     margin: 10px;
     height: 20vh;
     color: white;
@@ -31,5 +30,5 @@ body{
     flex-grow: 2;
 }
 .flex-sm{
-    background-color: rgb(190, 247, 194);
+    background-color: green;
 }
