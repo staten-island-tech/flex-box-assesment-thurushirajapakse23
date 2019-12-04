@@ -1,26 +1,27 @@
- @import "./_header.scss";
+@import "./_variables.scss";
+@import "./_header.scss";
 @import "./_about.scss";
-$colors:( primary: #345123
-);
-@function color($color-name){
-    @return map-get($colors, $color-name);
-}
-$padding: 1.3rem; 
+
+
 body{
     background-color: rgba(color(primary), 0.4);
 }
 .flex-parent{
-    background-color: pink;
+    background-color: rgb(85, 43, 116);
     height: 60vh;
     display: flex;
+    
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .flex-child{
-    background-color: plum;
+    background-color: rgb(152, 99, 177);
     margin: 10px;
     height: 20vh;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Squada One', cursive;
 }
 #flex-grow-1{
     display: flex;
@@ -30,5 +31,7 @@ body{
     flex-grow: 2;
 }
 .flex-sm{
-    background-color: green;
+    background-color:rgb(179, 141, 214);
+    font-size: 2rem;
+    font-family: 'Karma', serif;
 }

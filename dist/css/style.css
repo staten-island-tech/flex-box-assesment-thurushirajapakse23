@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: rgba(52, 81, 35, 0.4);
+  background-color: rgba(167, 133, 231, 0.4);
 }
 
 .flex-parent {
-  background-color: pink;
+  background-color: #552b74;
   height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,16 +20,19 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-child {
-  background-color: plum;
+  background-color: #9863b1;
   margin: 10px;
   height: 20vh;
-  color: white;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Squada One', cursive;
 }
 
 #flex-grow-1 {
@@ -48,6 +51,8 @@ body {
 }
 
 .flex-sm {
-  background-color: green;
+  background-color: #b38dd6;
+  font-size: 2rem;
+  font-family: 'Karma', serif;
 }
 /*# sourceMappingURL=style.css.map */
