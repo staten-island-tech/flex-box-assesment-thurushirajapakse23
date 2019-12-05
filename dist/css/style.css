@@ -1,13 +1,9 @@
 .header {
-  background-color: pink;
-}
-
-.header {
   background-color: blueviolet;
 }
 
 body {
-  background-color: rgba(167, 133, 231, 0.4);
+  background-color: rgba(11, 5, 22, 0.4);
 }
 
 .flex-parent {
@@ -32,7 +28,9 @@ body {
   color: black;
   font-size: 5rem;
   text-align: center;
-  font-family: 'Squada One', cursive;
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+  word-spacing: 5rem;
 }
 
 #flex-grow-1 {
@@ -53,6 +51,9 @@ body {
 .flex-sm {
   background-color: #b38dd6;
   font-size: 2rem;
-  font-family: 'Karma', serif;
+  font-family: 'Righteous', cursive;
+  color: darkblue;
+  text-transform: none;
+  word-spacing: normal;
 }
 /*# sourceMappingURL=style.css.map */
