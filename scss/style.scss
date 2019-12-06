@@ -2,7 +2,6 @@
 @import "./_header.scss";
 @import "./_about.scss";
 
-
 body{
     background-color: rgba(color(primary), 0.4);
 }
@@ -10,7 +9,6 @@ body{
     background-color: rgb(85, 43, 116);
     height: 60vh;
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
 }
@@ -33,13 +31,9 @@ body{
 .flex-sm{
     background-color:rgb(179, 141, 214);
     font-size: 2rem;
-<<<<<<< HEAD
     font-family: 'Righteous', cursive;
     color: darkblue;
     text-transform: none;
     word-spacing: normal;
-    justify-content: flex-start;
-=======
-    font-family: 'Karma', serif;
->>>>>>> parent of 9ae9d48... flexbox
+
 }
