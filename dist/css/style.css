@@ -8,28 +8,35 @@
 
 body {
   background-color: rgba(167, 133, 231, 0.4);
+  background-color: #552b74;
 }
 
 .flex-parent {
-  background-color: #552b74;
-  height: 60vh;
+  background-color: #7a569c;
+  height: 25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
+.future {
+  color: red;
+}
+
 .flex-child {
-  background-color: s #9863b1;
   margin: 10px;
   height: 20vh;
   color: black;
   font-size: 5rem;
   text-align: center;
   font-family: 'Squada One', cursive;
-
 }
 
 #flex-grow-1 {
@@ -45,27 +52,14 @@ body {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
-
 }
 
 .flex-sm {
-  background-color: #b38dd6;
   font-size: 2rem;
   font-family: 'Righteous', cursive;
   color: darkblue;
   text-transform: none;
   word-spacing: normal;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-
-  font-family: 'Karma', serif;
-
-
-  font-family: 'Karma', serif;
-
-
-  font-family: 'Karma', serif;
-
+  background-color: #b38dd6;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,16 +4,19 @@
 
 body{
     background-color: rgba(color(primary), 0.4);
+    background-color: rgb(85, 43, 116);
 }
 .flex-parent{
-    background-color: rgb(85, 43, 116);
-    height: 60vh;
+    background-color:rgb(122, 86, 156);
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.future{
+    color: red;
+}
 .flex-child{
-    background-color:s rgb(152, 99, 177);
     margin: 10px;
     height: 20vh;
     color: rgb(0, 0, 0);
@@ -23,17 +26,18 @@ body{
 }
 #flex-grow-1{
     display: flex;
+    
     justify-content: space-evenly;
 }
 #flex-grow-2{
     flex-grow: 2;
 }
 .flex-sm{
-    background-color:rgb(179, 141, 214);
     font-size: 2rem;
     font-family: 'Righteous', cursive;
     color: darkblue;
     text-transform: none;
     word-spacing: normal;
-
+    background-color:rgb(179, 141, 214);
+    
 }
