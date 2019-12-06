@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 .flex-child{
-    background-color: rgb(152, 99, 177);
+    background-color:s rgb(152, 99, 177);
     margin: 10px;
     height: 20vh;
     color: rgb(0, 0, 0);
@@ -37,5 +37,5 @@ body{
     color: darkblue;
     text-transform: none;
     word-spacing: normal;
-
+    justify-content: flex-start;
 }
