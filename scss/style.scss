@@ -1,4 +1,5 @@
 @import "./_variables.scss";
+@import "./_header.scss";
 @import "./_about.scss";
 
 
@@ -8,7 +9,8 @@ body{
 .flex-parent{
     background-color: rgb(85, 43, 116);
     height: 60vh;
-    display: flex;  
+    display: flex;
+    
     flex-direction: column;
     justify-content: center;
 }
@@ -19,13 +21,11 @@ body{
     color: rgb(0, 0, 0);
     font-size: 5rem;
     text-align: center;
-    font-family: 'Exo', sans-serif;
-    text-transform: uppercase;
-    word-spacing: 5rem;
+    font-family: 'Squada One', cursive;
 }
 #flex-grow-1{
     display: flex;
-    justify-content: space-evenly;s
+    justify-content: space-evenly;
 }
 #flex-grow-2{
     flex-grow: 2;
@@ -33,9 +33,13 @@ body{
 .flex-sm{
     background-color:rgb(179, 141, 214);
     font-size: 2rem;
+<<<<<<< HEAD
     font-family: 'Righteous', cursive;
     color: darkblue;
     text-transform: none;
     word-spacing: normal;
     justify-content: flex-start;
+=======
+    font-family: 'Karma', serif;
+>>>>>>> parent of 9ae9d48... flexbox
 }
