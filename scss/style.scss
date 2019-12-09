@@ -1,37 +1,30 @@
 @import "./_variables.scss";
 @import "./_about.scss";
-
+@import "./header.scss";
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgba(color(primary), 0.4);
+    background-color: rgb(21, 11, 29);
+    height: 100%;
 }
-.flex-parent{
-    background-color: rgb(85, 43, 116);
-    height: 60vh;
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-}
-.flex-child{
-    background-color: rgb(152, 99, 177);
-    margin: 10px;
-    height: 20vh;
-    color: rgb(0, 0, 0);
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Exo', sans-serif;
-    text-transform: uppercase;
-    word-spacing: 5rem;
+.img{
+    height:27rem;
+    width: 9rem;
 }
 #flex-grow-1{
     display: flex;
-    justify-content: space-evenly;s
+    justify-content: space-evenly;
 }
 #flex-grow-2{
     flex-grow: 2;
 }
 .flex-sm{
-    background-color:rgb(179, 141, 214);
+    background-color:rgb(108, 78, 136);
     font-size: 2rem;
     font-family: 'Righteous', cursive;
     color: darkblue;

@@ -2,35 +2,23 @@
   background-color: blueviolet;
 }
 
+h1 {
+  color: white;
+  background-color: #4b4350;
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+}
+
 body {
   background-color: rgba(11, 5, 22, 0.4);
+  background-color: #1e0f29;
+  height: 100%;
 }
 
-.flex-parent {
-  background-color: #552b74;
-  height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.flex-child {
-  background-color: #9863b1;
-  margin: 10px;
-  height: 20vh;
-  color: black;
-  font-size: 5rem;
-  text-align: center;
-  font-family: 'Exo', sans-serif;
-  text-transform: uppercase;
-  word-spacing: 5rem;
+.img {
+  height: 27rem;
+  width: 9rem;
 }
 
 #flex-grow-1 {
@@ -49,7 +37,7 @@ body {
 }
 
 .flex-sm {
-  background-color: #b38dd6;
+  background-color: #6c4e88;
   font-size: 2rem;
   font-family: 'Righteous', cursive;
   color: darkblue;
