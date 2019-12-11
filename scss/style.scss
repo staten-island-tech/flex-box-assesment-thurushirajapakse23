@@ -1,8 +1,5 @@
 @import "./_variables.scss";
 @import "./_header.scss";
-@import "./_about.scss";
-<<<<<<< HEAD
-@import "./header.scss";
 html{
     padding: 0;
     margin: 0;
@@ -10,54 +7,23 @@ html{
 }
 
 body{
-    background-color: rgba(color(primary), 0.4);
     background-color: rgb(21, 11, 29);
     height: 100%;
 }
+h1
 .img{
     height:27rem;
     width: 9rem;
 }
 #flex-grow-1{
     display: flex;
-=======
-
-body{
-    background-color: rgba(color(primary), 0.4);
-    background-color: rgb(85, 43, 116);
-}
-.flex-parent{
-    background-color:rgb(122, 86, 156);
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.future{
-    color: red;
-}
-.flex-child{
-    margin: 10px;
-    height: 20vh;
-    color: rgb(0, 0, 0);
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Squada One', cursive;
-}
-#flex-grow-1{
-    display: flex;
-    
->>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
     justify-content: space-evenly;
 }
 #flex-grow-2{
     flex-grow: 2;
 }
 .flex-sm{
-<<<<<<< HEAD
-    background-color:rgb(108, 78, 136);
-=======
->>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
+    background-color:rgb(61, 44, 71);
     font-size: 2rem;
     font-family: 'Righteous', cursive;
     color: darkblue;

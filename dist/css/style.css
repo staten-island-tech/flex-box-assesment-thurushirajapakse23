@@ -1,62 +1,27 @@
-.header {
-  background-color: pink;
-}
-
-.header {
-  background-color: blueviolet;
-}
-
-<<<<<<< HEAD
 h1 {
   color: white;
-  background-color: #4b4350;
+  background-color: #584d5c;
   text-align: center;
   font-size: 6rem;
   font-family: 'Sacramento', cursive;
 }
 
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: rgba(11, 5, 22, 0.4);
-  background-color: #1e0f29;
+  background-color: #150b1d;
   height: 100%;
 }
 
+h1
 .img {
   height: 27rem;
   width: 9rem;
-=======
-body {
-  background-color: rgba(167, 133, 231, 0.4);
-  background-color: #552b74;
-}
-
-.flex-parent {
-  background-color: #7a569c;
-  height: 25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.future {
-  color: red;
-}
-
-.flex-child {
-  margin: 10px;
-  height: 20vh;
-  color: black;
-  font-size: 5rem;
-  text-align: center;
-  font-family: 'Squada One', cursive;
->>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
 }
 
 #flex-grow-1 {
@@ -75,10 +40,7 @@ body {
 }
 
 .flex-sm {
-<<<<<<< HEAD
-  background-color: #6c4e88;
-=======
->>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
+  background-color: #3d2c47;
   font-size: 2rem;
   font-family: 'Righteous', cursive;
   color: darkblue;
