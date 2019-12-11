@@ -1,7 +1,12 @@
 .header {
+  background-color: pink;
+}
+
+.header {
   background-color: blueviolet;
 }
 
+<<<<<<< HEAD
 h1 {
   color: white;
   background-color: #4b4350;
@@ -19,6 +24,39 @@ body {
 .img {
   height: 27rem;
   width: 9rem;
+=======
+body {
+  background-color: rgba(167, 133, 231, 0.4);
+  background-color: #552b74;
+}
+
+.flex-parent {
+  background-color: #7a569c;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.future {
+  color: red;
+}
+
+.flex-child {
+  margin: 10px;
+  height: 20vh;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Squada One', cursive;
+>>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
 }
 
 #flex-grow-1 {
@@ -37,11 +75,15 @@ body {
 }
 
 .flex-sm {
+<<<<<<< HEAD
   background-color: #6c4e88;
+=======
+>>>>>>> 6c7cb78df6ef4d3db216e89d365c5ea7797a682e
   font-size: 2rem;
   font-family: 'Righteous', cursive;
   color: darkblue;
   text-transform: none;
   word-spacing: normal;
+  background-color: #b38dd6;
 }
 /*# sourceMappingURL=style.css.map */
