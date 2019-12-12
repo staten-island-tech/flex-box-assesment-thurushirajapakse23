@@ -1,4 +1,12 @@
-$colors:( primary: #a785e7);
+$colors:( 
+    primary: #3b2547,
+    lighter: rgb(86, 70, 100),
+    darker:#230b31,
+    accent: #230b31,
+    title: rgb(154, 137, 170),
+);
+
+
 $padding: 1.3rem; 
 @function color($color-name){
     @return map-get($colors, $color-name);

@@ -1,7 +1,22 @@
 h1{
     color: white;
-    background-color: rgb(88, 77, 92);;
+    background-color: color(lighter);
     text-align: center;
     font-size: 6rem;
     font-family: 'Sacramento', cursive;
+    margin: auto;
+    height: 7rem;
+}
+h2{
+    font-size: 3rem;
+    color: color(title);
+    text-align: center;
+    font-family: 'Girassol', cursive;
+}
+
+h3{
+    font-size: 3rem;
+    color: color(title);
+    text-align: center;
+    font-family: 'Girassol', cursive;
 }

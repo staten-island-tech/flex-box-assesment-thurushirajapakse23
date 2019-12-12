@@ -1,5 +1,6 @@
 @import "./_variables.scss";
 @import "./_header.scss";
+
 html{
     padding: 0;
     margin: 0;
@@ -7,28 +8,20 @@ html{
 }
 
 body{
-    background-color: rgb(21, 11, 29);
+    background-color: color(darker);
     height: 100%;
 }
-h1
-.img{
-    height:27rem;
-    width: 9rem;
-}
-#flex-grow-1{
-    display: flex;
-    justify-content: space-evenly;
-}
-#flex-grow-2{
-    flex-grow: 2;
+
+.flex-child{
+    background-color: color(primary);
 }
 .flex-sm{
-    background-color:rgb(61, 44, 71);
-    font-size: 2rem;
-    font-family: 'Righteous', cursive;
-    color: darkblue;
-    text-transform: none;
-    word-spacing: normal;
-    background-color:rgb(179, 141, 214);
-    
+    display: flex;
+    justify-content: space-around;
+
 }
+img{
+    max-width: 17rem;
+    max-height: 17rem;
+}
+
