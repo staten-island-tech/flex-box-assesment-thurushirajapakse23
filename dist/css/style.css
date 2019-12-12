@@ -50,4 +50,10 @@ img {
   max-width: 17rem;
   max-height: 17rem;
 }
+
+p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
