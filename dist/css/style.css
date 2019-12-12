@@ -31,14 +31,14 @@ html {
 
 body {
   background-color: #230b31;
-  height: 100%;
+}
+
+.flex-parent {
+  background-color: #3b2547;
+  width: 100vh;
 }
 
 .flex-child {
-  background-color: #3b2547;
-}
-
-.flex-sm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,5 +49,26 @@ body {
 img {
   max-width: 17rem;
   max-height: 17rem;
+}
+
+#text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #685374;
+  max-width: 35rem;
+  margin: 1rem;
+  color: #230b31;
+}
+
+#paragraph {
+  font-family: 'Francois One', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  text-align: center;
+  max-width: 36rem;
 }
 /*# sourceMappingURL=style.css.map */
