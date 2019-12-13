@@ -12,21 +12,17 @@ body{
     height: 100%;
 }
 
-.flex-parent-1{
+.flex-parent{
     background-color: color(primary);
+    
+}
+.flex-child{
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
-
-.flex-child-1{
+img{
     max-width: 17rem;
-    height: 17rem;
-}
-
-.flex-grandchild-1{
-    max-height: 9rem;
-    height: 9rem;
+    max-height: 17rem;
 }
 
 #text{
@@ -45,6 +41,7 @@ body{
     text-align: center;
     max-width: 36rem;
 }
+<<<<<<< HEAD
 .flex-parent-2{
     display: flex;
     flex-direction: row;
@@ -55,7 +52,6 @@ body{
 }
 
 .flex-child-2{
-    background-color: color(primary);
     height: auto;
     margin: 1rem;
 }
@@ -65,4 +61,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: stretch;
+
 }
+=======
+>>>>>>> parent of a5d953b... flex-box
