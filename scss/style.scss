@@ -55,7 +55,6 @@ body{
 }
 
 .flex-child-2{
-    background-color: color(primary);
     height: auto;
     margin: 1rem;
 }
@@ -65,4 +64,5 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: stretch;
+
 }
