@@ -35,47 +35,30 @@ body {
 }
 
 .flex-parent-1 {
+  background-color: #3b2547;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: #3b2547;
 }
 
-.flex-child-1{
+.flex-child-1 {
   max-width: 17rem;
   max-height: 17rem;
 }
 
 #text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  background-color: #685374;
-  max-width: 35rem;
-  margin: 1rem;
+  text-align: center;
   color: #230b31;
 }
 
 #paragraph {
   font-family: 'Francois One', sans-serif;
-  text-align: center;
-  font-size: 1.4rem;
-  text-align: center;
-  max-width: 36rem;
 }
-
 
 .flex-parent-2 {
   display: -webkit-box;
@@ -94,8 +77,21 @@ body {
 }
 
 .flex-child-2 {
-  height: auto;
   margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-grandchild {
+  max-height: 9rem;
 }
 
 #right {
@@ -112,8 +108,6 @@ body {
   -webkit-box-pack: stretch;
       -ms-flex-pack: stretch;
           justify-content: stretch;
+  background-color: #685374;
 }
-
-.flex-grandchild{
-  max-height: 9rem;
-}
+/*# sourceMappingURL=style.css.map */
